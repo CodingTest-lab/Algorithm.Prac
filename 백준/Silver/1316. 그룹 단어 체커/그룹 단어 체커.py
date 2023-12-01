@@ -3,7 +3,7 @@ count = 0
 
 for _ in range (num):
     word = input()
-    for i in range (len(word)-2): 
+    for i in range (len(word)-1): 
         if word[i] != word[i+1] and word[i] in word[i+2:]:
             count += 1
             break
