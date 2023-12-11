@@ -5,4 +5,6 @@ def solution(arr):
     
     middle_gap = result / len(arr)
     return middle_gap
+
+# sum(arr) / len(arr) = result해서 출력해도 된다.
         
