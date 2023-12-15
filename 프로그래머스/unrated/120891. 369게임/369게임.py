@@ -9,4 +9,6 @@ def solution(order):
         elif s_order[i] == '9':
             count += 1
     return count 
+
+#len()함수는 int에 적용이 안됨 / str로 바꿨기때문에 int랑 비교가 아닌 string의 값으로 비교 해야됨.... 
         
